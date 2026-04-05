@@ -106,6 +106,8 @@ C:\Users\Administrator\.codex\skills\openclaw-needs-solution-designer-by\
 
 - 许可证：[MIT](LICENSE)
 - 发布清单：[publish-checklist.md](publish-checklist.md)
+- 更新路线图：[ROADMAP.zh-CN.md](ROADMAP.zh-CN.md)
+- 使用指南：[HOW-TO-USE.zh-CN.md](HOW-TO-USE.zh-CN.md)
 - 主要公开文档：
   - [README.md](README.md)
   - [README.zh-CN.md](README.zh-CN.md)

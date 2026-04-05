@@ -135,6 +135,8 @@ Further real-world iteration is still expected, but this repository is now suita
 
 - License: [MIT](LICENSE)
 - Publish checklist: [publish-checklist.md](publish-checklist.md)
+- Roadmap: [ROADMAP.md](ROADMAP.md)
+- Usage guide: [HOW-TO-USE.md](HOW-TO-USE.md)
 - Main public docs:
   - [README.md](README.md)
   - [README.zh-CN.md](README.zh-CN.md)
