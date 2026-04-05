@@ -1,0 +1,10 @@
+# Windows / editor temp files
+~$*
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# General
+*.tmp

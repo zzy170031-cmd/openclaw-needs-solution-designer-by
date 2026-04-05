@@ -1,0 +1,7 @@
+interface:
+  display_name: "Needs Solution Designer By"
+  short_description: "Clarify needs, check reuse, and shape a plan."
+  default_prompt: "Use $openclaw-needs-solution-designer-by to turn a fuzzy need into a clear, reuse-aware OpenClaw solution plan before formal writing."
+
+policy:
+  allow_implicit_invocation: true
