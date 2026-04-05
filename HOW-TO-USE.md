@@ -32,6 +32,61 @@ Use $openclaw-needs-solution-designer-by to help me.
 I want this to push updates to me automatically.
 ```
 
+## Best First Real-Use Opening Template
+
+If you want a steadier start than a one-line rough request, you can copy this:
+
+```text
+Use $openclaw-needs-solution-designer-by to help me.
+
+I do not code, but I want to use OpenClaw to turn an idea into something real.
+My idea is:
+
+[Describe the idea in plain language]
+
+I still cannot clearly explain:
+1. what problem I really want to solve
+2. whether this should be reused, adapted, or built new
+3. how small the first version should be
+4. what should not be included yet
+5. how the result should continue into OpenClaw execution
+
+Please help me through your multi-round clarification flow:
+- restate your understanding in plain language first
+- if the need is still unclear, ask only the minimum useful questions
+- do not jump into code
+- do not jump into a final prompt
+- do not jump into a final SKILL.md
+- if you make default assumptions, put them under Working assumptions instead of treating them as confirmed facts
+
+When you think the understanding is close enough, tell me clearly how to confirm it.
+At the end, I want:
+- a clear solution document
+- a reuse / adapt / build-new judgment
+- a stable v1 scope
+- blockers and assumptions
+- an OpenClaw execution guide
+```
+
+You only need to replace:
+
+`[Describe the idea in plain language]`
+
+with your real idea.
+
+## Ultra-Short Opening Template
+
+If you want the shortest possible version, use this:
+
+```text
+Use $openclaw-needs-solution-designer-by to help me.
+
+I do not code, and I have an idea that I still cannot explain clearly.
+Please help me clarify it in plain language first, then judge whether I should reuse, adapt, or build new, and finally give me a solution document and OpenClaw execution guide.
+My idea is:
+[Write the idea in plain language]
+```
+
 ## How To Answer During Clarification
 
 You do not need to answer perfectly.
@@ -117,4 +172,3 @@ I think something like this may already exist. Help me judge before I rebuild it
 ```text
 I have a rough draft, but I need the problem, scope, and next step cleaned up first.
 ```
-
