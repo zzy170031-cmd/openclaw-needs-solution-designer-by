@@ -58,7 +58,7 @@ This checklist is for the first public GitHub release of the outward-facing skil
 
 ## 6. Still Worth Checking Before Public Push
 
-- [ ] Run one final real-user scenario after the latest confirmation-cue wording update.
+- [x] Run one final real-user scenario after the latest confirmation-cue wording update.
 - [ ] Read both `README.md` and `README.zh-CN.md` once in GitHub preview after push to confirm rendering is normal.
 - [ ] Confirm the repository description line for GitHub.
 - [ ] Confirm whether you want to publish under your personal account or an organization account.

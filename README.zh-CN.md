@@ -77,7 +77,7 @@ C:\Users\Administrator\.codex\skills\openclaw-needs-solution-designer-by\
 
 ## 当前状态
 
-这是一个面向外部使用的 `v1` 草稿。
+这是一个面向外部使用的 `v1` 首发版。
 
 目前已经对齐的方向是：
 
@@ -86,7 +86,15 @@ C:\Users\Administrator\.codex\skills\openclaw-needs-solution-designer-by\
 - 内置“先看是否有现成 skill 可参考/可复用”的阶段
 - 强调稳定落地，而不是只追求快出答案
 
-它还没有像内部元 skill 那样完成完整的人工测试闭环。
+它已经完成了首轮边界与真实场景测试，重点覆盖了：
+
+- 白话入口能否接住
+- 多轮轮询确认是否生效
+- 明确确认提示语是否出现
+- `confirmed` 与 `working assumptions` 是否分开
+- 能否输出方案文档与 OpenClaw 执行指引
+
+后面仍然建议继续迭代真实案例，但现在已经适合做第一次公开发布。
 
 ## 语言策略
 

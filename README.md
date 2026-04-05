@@ -72,10 +72,13 @@ The skill should help the user leave with:
 ```text
 openclaw-needs-solution-designer-by/
   README.md
+  README.zh-CN.md
   .gitignore
   examples/
     customer-needs-reuse-first-example.md
+    customer-needs-reuse-first-example.zh-CN.md
     client-needs-triage-v1-handoff.md
+    client-needs-triage-v1-handoff.zh-CN.md
   openclaw-needs-solution-designer-by/
     SKILL.md
     agents/
@@ -101,7 +104,7 @@ C:\Users\Administrator\.codex\skills\openclaw-needs-solution-designer-by\
 
 ## Current Status
 
-This is a first outward-facing draft.
+This is a first outward-facing `v1` release.
 
 It is already aligned with the intended product direction:
 
@@ -112,7 +115,15 @@ It is already aligned with the intended product direction:
 
 The repository also now includes a downstream handoff example for a narrow client-needs-triage skill so the bridge from fuzzy need -> stable plan -> formal design is visible.
 
-It has not yet gone through the same full manual test loop as the internal design meta-skill.
+It has already gone through boundary and real-scenario testing for:
+
+- plain-language entry
+- repeated clarification rounds
+- explicit confirmation cues
+- confirmation-vs-assumption separation
+- solution-document and execution-guidance output
+
+Further real-world iteration is still expected, but this repository is now suitable for a first public release.
 
 ## Language Strategy
 
