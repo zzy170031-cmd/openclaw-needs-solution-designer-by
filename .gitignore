@@ -1,0 +1,11 @@
+target/
+.cargo-target-webThGgZn/
+recovery/
+
+data/*.log
+data/*.db
+data/*.db.bak_*
+data/.spg_web_provider_secrets.enc
+data/.spg_web_provider_secrets.enc.bak_*
+
+*.tmp

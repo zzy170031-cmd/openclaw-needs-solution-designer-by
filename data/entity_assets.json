@@ -1,0 +1,118 @@
+{
+  "games": [
+    {
+      "game_id": "game_stzb",
+      "standard_name": "率土之滨",
+      "track": "slg",
+      "representative_work": "率土之滨",
+      "aliases": [
+        { "value": "率土之滨", "strength": "strong", "source": "standard_name" },
+        { "value": "率土", "strength": "weak", "source": "short_name" },
+        { "value": "RSZ", "strength": "weak", "source": "abbreviation" }
+      ],
+      "official_accounts": ["率土之滨官方", "率土之滨"],
+      "official_url_seeds": ["stzb.163.com"]
+    },
+    {
+      "game_id": "game_sanguozhi",
+      "standard_name": "三国志战略版",
+      "track": "slg",
+      "representative_work": "三国志战略版",
+      "aliases": [
+        { "value": "三国志战略版", "strength": "strong", "source": "standard_name" },
+        { "value": "三国志·战略版", "strength": "strong", "source": "alias_table" },
+        { "value": "三战", "strength": "weak", "source": "community_alias" },
+        { "value": "SZV", "strength": "weak", "source": "abbreviation" }
+      ],
+      "official_accounts": ["三国志战略版", "三国志战略版官方"],
+      "official_url_seeds": ["sango.xd.com"]
+    },
+    {
+      "game_id": "game_rok",
+      "standard_name": "万国觉醒",
+      "track": "slg",
+      "representative_work": "万国觉醒",
+      "aliases": [
+        { "value": "万国觉醒", "strength": "strong", "source": "standard_name" },
+        { "value": "Rise of Kingdoms", "strength": "strong", "source": "global_name" },
+        { "value": "万国", "strength": "weak", "source": "short_name" },
+        { "value": "ROK", "strength": "weak", "source": "abbreviation" }
+      ],
+      "official_accounts": ["万国觉醒官方", "万国觉醒"],
+      "official_url_seeds": ["rok.lilith.com"]
+    },
+    {
+      "game_id": "game_wmyzf",
+      "standard_name": "文明与征服",
+      "track": "slg",
+      "representative_work": "文明与征服",
+      "aliases": [
+        { "value": "文明与征服", "strength": "strong", "source": "standard_name" },
+        { "value": "文征", "strength": "weak", "source": "short_name" }
+      ],
+      "official_accounts": ["文明与征服", "文明与征服官方"],
+      "official_url_seeds": ["wmyzf.com"]
+    },
+    {
+      "game_id": "game_cfdg",
+      "standard_name": "重返帝国",
+      "track": "slg",
+      "representative_work": "重返帝国",
+      "aliases": [
+        { "value": "重返帝国", "strength": "strong", "source": "standard_name" },
+        { "value": "重返", "strength": "weak", "source": "short_name" }
+      ],
+      "official_accounts": ["重返帝国官方", "重返帝国"],
+      "official_url_seeds": ["cfdg.funplus.com"]
+    },
+    {
+      "game_id": "game_htzx",
+      "standard_name": "鸿图之下",
+      "track": "slg",
+      "representative_work": "鸿图之下",
+      "aliases": [
+        { "value": "鸿图之下", "strength": "strong", "source": "standard_name" },
+        { "value": "鸿图", "strength": "weak", "source": "short_name" }
+      ],
+      "official_accounts": ["鸿图之下", "鸿图之下官方"],
+      "official_url_seeds": ["htzx.zulong.com"]
+    },
+    {
+      "game_id": "game_mdtx",
+      "standard_name": "三国谋定天下",
+      "track": "slg",
+      "representative_work": "三国谋定天下",
+      "aliases": [
+        { "value": "三国谋定天下", "strength": "strong", "source": "standard_name" },
+        { "value": "谋定天下", "strength": "weak", "source": "short_name" },
+        { "value": "谋定", "strength": "weak", "source": "community_alias" }
+      ],
+      "official_accounts": ["三国谋定天下", "三国谋定天下官方"],
+      "official_url_seeds": ["mdtx.xd.com"]
+    }
+  ],
+  "negative_aliases": [
+    "手游",
+    "新游",
+    "版本更新",
+    "官方公告",
+    "活动预告",
+    "策略游戏",
+    "SLG推荐",
+    "SLG排行",
+    "三国游戏",
+    "战争策略"
+  ],
+  "event_rules": {
+    "season": ["赛季", "新赛季", "赛季更新", "赛季结算", "赛季开启", "剧本赛季"],
+    "version": ["版本", "更新", "版本前瞻", "版本爆料", "大版本", "新版本"],
+    "commander": ["武将", "新武将", "将领", "觉醒", "专属技", "战法", "新战法", "指挥官"],
+    "alliance_war": ["同盟战", "联盟战", "征服", "关隘战", "大决战", "赛季大战", "决赛圈"],
+    "balance": ["平衡", "削弱", "加强", "调整", "改版", "技改", "平衡性"],
+    "collab": ["联动", "合作", "联名", "IP联动"],
+    "controversy": ["争议", "炎上", "翻车", "维权", "bug", "漏洞"],
+    "activity": ["活动", "福利", "签到", "限时", "返场"],
+    "test": ["测试", "删档", "内测", "招募", "先锋测试"],
+    "launch": ["公测", "开服", "上线", "首发"]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "games": [
+    {
+      "game_id": "game_hok",
+      "standard_name": "王者荣耀",
+      "track": "moba",
+      "representative_work": "王者荣耀",
+      "aliases": [
+        {
+          "value": "王者荣耀",
+          "strength": "strong",
+          "source": "standard_name"
+        },
+        {
+          "value": "Honor of Kings",
+          "strength": "strong",
+          "source": "global_name"
+        },
+        {
+          "value": "HOK",
+          "strength": "weak",
+          "source": "short_name"
+        },
+        {
+          "value": "王者",
+          "strength": "weak",
+          "source": "alias_table"
+        },
+        {
+          "value": "农药",
+          "strength": "weak",
+          "source": "community_alias"
+        }
+      ],
+      "official_accounts": [
+        "王者荣耀官方",
+        "王者荣耀",
+        "Honor of Kings"
+      ],
+      "official_url_seeds": [
+        "pvp.qq.com",
+        "honorofkings.com"
+      ]
+    },
+    {
+      "game_id": "game_genshin",
+      "standard_name": "原神",
+      "track": "rpg",
+      "representative_work": "原神",
+      "aliases": [
+        {
+          "value": "原神",
+          "strength": "strong",
+          "source": "standard_name"
+        },
+        {
+          "value": "Genshin Impact",
+          "strength": "strong",
+          "source": "global_name"
+        },
+        {
+          "value": "提瓦特",
+          "strength": "weak",
+          "source": "world_alias"
+        }
+      ],
+      "official_accounts": [
+        "原神",
+        "原神官方",
+        "Genshin Impact"
+      ],
+      "official_url_seeds": [
+        "genshin.hoyoverse.com",
+        "ys.mihoyo.com"
+      ]
+    },
+    {
+      "game_id": "game_eggy",
+      "standard_name": "蛋仔派对",
+      "track": "party",
+      "representative_work": "蛋仔派对",
+      "aliases": [
+        {
+          "value": "蛋仔派对",
+          "strength": "strong",
+          "source": "standard_name"
+        },
+        {
+          "value": "蛋仔",
+          "strength": "weak",
+          "source": "short_name"
+        }
+      ],
+      "official_accounts": [
+        "蛋仔派对",
+        "蛋仔派对官方"
+      ],
+      "official_url_seeds": [
+        "party.163.com",
+        "eggy-party"
+      ]
+    }
+  ],
+  "negative_aliases": [
+    "手游",
+    "新游",
+    "版本更新",
+    "官方公告",
+    "活动预告"
+  ],
+  "event_rules": {
+    "version": [
+      "版本",
+      "赛季",
+      "更新",
+      "版本前瞻",
+      "版本爆料"
+    ],
+    "activity": [
+      "活动",
+      "福利",
+      "签到",
+      "限时",
+      "返场"
+    ],
+    "collab": [
+      "联动",
+      "合作",
+      "联名"
+    ],
+    "controversy": [
+      "争议",
+      "炎上",
+      "翻车",
+      "维权"
+    ],
+    "test": [
+      "测试",
+      "删档",
+      "内测",
+      "招募"
+    ],
+    "launch": [
+      "公测",
+      "开服",
+      "上线",
+      "首发"
+    ]
+  }
+}
+

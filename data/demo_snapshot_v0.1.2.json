@@ -1,0 +1,66 @@
+{
+  "version": "v0.1.2",
+  "status": "ok",
+  "run_id": "run_1775803792699114500_918a6766",
+  "asset_version": "entity_assets_97581a7a67d4",
+  "rule_version": "v0.1.2",
+  "input": "data/sample_raw_items.jsonl",
+  "metrics": {
+    "processed_items": 6,
+    "duplicate_ratio": 0.3333,
+    "unresolved_ratio": 0.1667,
+    "resolution_confidence_distribution": {
+      "high": 5,
+      "medium": 0,
+      "low": 1
+    },
+    "signals_per_game": {
+      "game_hok": 4,
+      "game_genshin": 1
+    },
+    "signals_per_track": {
+      "moba": 4,
+      "rpg": 1
+    },
+    "platform_contribution_ratio": {
+      "official": 0.1667,
+      "weibo": 0.1667,
+      "bilibili": 0.1667,
+      "taptap": 0.1667,
+      "douyin": 0.3333
+    }
+  },
+  "duplicate_groups": [
+    {
+      "duplicate_type": "content_near_duplicate",
+      "canonical_signal_id": "sig_b64a1adfe642b1c949e7",
+      "dup_group_id": "dup_1d01c052f8e145dd",
+      "dedupe_key": "content::a415e113ba4ebb0bc4722ea8",
+      "member_source_ids": [
+        "raw_official_hok_001",
+        "raw_weibo_hok_001",
+        "raw_douyin_hok_001"
+      ]
+    }
+  ],
+  "unresolved_records": [
+    {
+      "source_id": "raw_douyin_unknown_001",
+      "platform": "douyin",
+      "reason": "no_candidate",
+      "track_id": null,
+      "track_candidates": [],
+      "title": "新赛季上分真的太难了"
+    }
+  ],
+  "row_counts_after_demo": {
+    "pipeline_runs": 1,
+    "raw_items": 6,
+    "clean_items": 6,
+    "resolved_signals": 6,
+    "dup_groups": 1,
+    "entity_aliases": 10,
+    "resolution_logs": 30,
+    "unresolved_pool": 1
+  }
+}
